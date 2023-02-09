@@ -64,3 +64,16 @@ img {
     border-top: 1px solid black;
   }
   
+
+  @media all and (max-width: 800px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media all and (max-width: 800px) {
+    .vl {
+      border-bottom: 1px solid black;
+      border-right: transparent;
+    }
+  }
