@@ -54,19 +54,6 @@ img {
   .vl {
     border-right: 1px solid black;
   }
-  
-  @media screen and (min-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (min-width: 600px) {
-    .topbar a {
-      float: none;
-      width: 100%;
-    }
-  }
 
   .footer {
     position: absolute;
