@@ -9,71 +9,71 @@ img {
 }
 
 .topbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  
-    border-top: solid;
-    border-top-width: 5px;
-    color: #69cae9;
-    border-bottom: solid;
-    border-bottom-color: #000000;
-    border-bottom-width: 1px;
-  }
-  
-  .topbar a {
-    display: block;
-    color: #000000;
-    width: 100px;
-    text-decoration: none;
-    text-align: center;
-  }
-  .topbar a:hover {
-    color: #add8e6;
-  }
-  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+  border-top: solid;
+  border-top-width: 5px;
+  color: #69cae9;
+  border-bottom: solid;
+  border-bottom-color: #000000;
+  border-bottom-width: 1px;
+}
+
+.topbar a {
+  display: block;
+  color: #000000;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+}
+.topbar a:hover {
+  color: #add8e6;
+}
+
+.row {
+  display: flex;
+}
+
+.rightcolumn {
+  flex: 50%;
+  text-align: left;
+  margin: 20px;
+  padding: 60px;
+}
+
+.leftcolumn {
+  flex: 50%;
+  text-align: center;
+  padding: 50px;
+}
+
+.vl {
+  border-right: 1px solid black;
+  height: 500px;
+}
+
+@media all and (max-width: 800px) {
   .row {
     display: flex;
+    flex-wrap: wrap;
   }
-  
-  .rightcolumn {
-    flex: 50%;
-    text-align: left;
-    margin: 20px;
-    padding: 60px;
-  }
-  
-  .leftcolumn {
-    flex: 50%;
-    text-align: center;
-    padding: 50px;
-  }
-  
+}
+@media all and (max-width: 800px) {
   .vl {
-    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: transparent;
   }
+}
 
-  .footer {
-    position: absolute;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-    text-align: center;
-    border-top: 1px solid black;
-  }
-  
-
-  @media all and (max-width: 800px) {
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-  @media all and (max-width: 800px) {
-    .vl {
-      border-bottom: 1px solid black;
-      border-right: transparent;
-    }
-  }
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid black;
+}
