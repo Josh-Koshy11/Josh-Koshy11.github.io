@@ -39,27 +39,29 @@ img {
   }
   
   .rightcolumn {
-    padding: 40px;
     flex: 50%;
+    text-align: left;
+    margin: 20px;
+    padding: 60px;
   }
   
   .leftcolumn {
-    padding: 20px;
     flex: 50%;
     text-align: center;
+    padding: 50px;
   }
   
   .vl {
     border-right: 1px solid black;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 600px) {
     .column {
       width: 100%;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 600px) {
     .topnav a {
       float: none;
       width: 100%;
