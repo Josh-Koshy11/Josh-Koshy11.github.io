@@ -75,7 +75,7 @@ img {
 
 .footer p{
   display: flex;
-  min-height: 0px;
+  max-height: 5px;
   padding: 6px;
   border-top: 1px solid black;
   justify-content: center;
