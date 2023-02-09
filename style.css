@@ -58,16 +58,20 @@ img {
 
 @media all and (max-width: 800px) {
   .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-wrap: wrap !important;
   }
-}
-@media all and (max-width: 800px) {
   .vl {
     border-bottom: 1px solid black;
     border-right: transparent;
   }
+  .topbar ul {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
 }
+
 
 .footer {
   position: absolute;
