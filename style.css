@@ -78,5 +78,6 @@ img {
   flex-direction: column;
   justify-content: space-between;
   border-top: 1px solid black;
+  text-align: center;
   
 }
