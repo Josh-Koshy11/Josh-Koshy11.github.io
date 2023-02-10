@@ -72,8 +72,7 @@ img {
   
 }
 
-
-.footer {
+footer {
   display: flex;
   max-height: 1px;
   padding: 6px;
