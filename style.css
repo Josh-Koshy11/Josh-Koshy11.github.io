@@ -10,7 +10,7 @@ img {
 
 .topbar ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -80,4 +80,10 @@ img {
   width: 100%;
   border-top: 1px solid;
   text-align: center;
+}
+
+.pg {
+  display: flex;
+  flex-direction: column;
+  
 }
